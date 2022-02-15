@@ -1,0 +1,7 @@
+/* When chaining you use . without any spaces and when selecting descendant combinator, you use a space */
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
