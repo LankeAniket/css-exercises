@@ -26,10 +26,17 @@ body {
   align-items: center;
 }
 
+.content{
+  display: flex;
+}
+
+
 .sidebar {
   width: 300px;
   background: royalblue;
   padding-left: 5px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 a{
@@ -39,6 +46,10 @@ a{
 
 ul{
   list-style: none;
+  padding-inline-start: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .card {
